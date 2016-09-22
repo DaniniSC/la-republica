@@ -13,8 +13,111 @@
 	<!--Sol--><section class="suscribete"></section>
 	<!--Sol--><header></header>
 	<!--Sol--><section class="temasDelDia"></section>
-	<section class="contactese"></section>
-	<section class="formulario"></section>
+	<section class="contactese">
+		<div class="container">
+			<div class="row col-md-16">
+				<h1 class="text-center">Contáctese con nosotros</h1>
+				<p class="text-center">Llene este formulario si necesita enviarnos alguna información acerca del contenido del sitio web, su funcionalidad, o si tiene alguna propuesta de información o mejora para el sitio. Así mismo, puede hacer llegar a los redactores su opinión acerca de los contenidos de una determinada sección el cual podrá elegir como destinatario</p>
+			</div>
+		</div>
+	</section>
+	<section class="formulario">
+		<div class="container col-md-16">
+			<form role="form">
+				<div class="form-group">
+					<input type="text" class="form-control" id="nombresCompletos" placeholder="Nombres Completos">
+				</div>
+				<div class="form-group">
+					<input type="email" class="form-control" id="correoElectronico" placeholder="Correo Electrónico">
+				</div>
+				<div class="form-group">
+					<input type="tel" class="form-control" id="teléfonos" placeholder="Teléfonos">
+					<p>(Opcional)</p>
+				</div>
+				<div class="centrarTabla">
+					<table>
+						<thead>
+							<tr>
+								<th><h2>Elija un destinatario</h2></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<label>
+										<input type="radio" name="optionsRadios" id="sugerenciaParaElSitioWeb" value="option1" checked>
+										Sugerencia para el sitio web
+									</label>
+								</td>
+								<td>
+									<p class="text-right">(Ej: Funcionamiento y mejoras para el sitio)</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>
+										<input type="radio" name="optionsRadios" id="direccionPeriodistica" value="option2" checked>
+										Dirección Periodística
+									</label>
+								</td>
+								<td>
+									<p class="text-right">(Ej: Sugerencia para la nota de prensa)</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>
+										<input type="radio" name="optionsRadios" id="direccionComercial" value="option3" checked>
+										Dirección Comercial
+									</label>
+								</td>
+								<td>
+									<p class="text-right">(Ej: Publicidad en diarios o sitios web)</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>
+										<input type="radio" name="optionsRadios" id="cartasAlDirector" value="option4" checked>
+										Cartas al director
+									</label>
+								</td>
+								<td>
+									<p class="text-right">(Ej: Denuncias, comentarios e impresiones)</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>
+										<input type="radio" name="optionsRadios" id="promocionesYProductosDelDiario" value="option5" checked>
+										Promociones y productos del diario
+									</label>
+								</td>
+								<td>
+									<p class="text-right">(Ej: Promociones, tablet, etc)</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>
+										<input type="radio" name="optionsRadios" id="archivoPeriodistico" value="option6" checked>
+										Archivo Periodístico
+									</label>
+								</td>
+								<td>
+									<p class="text-right">(Ej: Ediciones impresas, fotos, etc)</p>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<textarea class="form-control" rows="8" placeholder="Mensaje"></textarea>
+				<div class="centrarBoton">
+					<button type="submit" class="btn">ENVIAR</button>
+				</div>
+			</form>
+		</div>
+	</section>
 	<!--Sol--><footer></footer>
 </body>
 </html>
