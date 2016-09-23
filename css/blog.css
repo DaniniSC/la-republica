@@ -1,1 +1,70 @@
-/* Inserta tu código de la página blog acá */
+.titulo-blog{
+	color:#000;
+	margin-left:3%; 
+}
+
+.subtitulo-blog{
+	float: left;
+	color:#959292;
+	margin-left: 3%; 
+}
+
+.arrow{
+	padding-top:1%;
+}
+
+.borde{
+	border: 3px solid #EFEBEB;
+	margin: 2% 2%;
+	padding: 1% 1% 6%;
+
+}
+
+.avatar{
+	float: left;
+	border: 3px ridge #fff;
+	max-width: 150%;
+	margin-right: 3%;
+	padding: 2%;
+	
+}
+
+.fondo-blog{
+	background-color: #E9E6E6;
+	padding:10%;
+	width: 100%;
+
+}
+
+.enlace-blog{
+	font-size: 15px;
+	color:#959292;
+}
+
+.footer-blog{
+	background-color: #2E2C2C;
+}
+
+.tx-footer{
+	color: #fff;
+	padding-top:2%;
+}
+
+/*agregue media para ocultar el banner pucp*/
+
+@media (max-width: 768px){
+
+	.oculta, .pie_pagina, .publicidad1, .rojo{
+		visibility:hidden;
+	}
+	 .btn-xs{
+		float: left;
+	 }
+}
+
+@media (min-width: 768px){
+	
+	.footer-blog{
+		visibility: hidden;
+	}
+}
