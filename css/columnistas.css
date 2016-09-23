@@ -1,1 +1,80 @@
 /* section columnas */
+.bloquesColumnas{
+	border: 2px solid lightgrey;
+	margin: 2% 1%;
+	padding: 1% 1% 6%;
+	height: 280px;
+}
+.fondoColumnista {
+	background-color: #E9E6E6;
+	padding: 2%;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	border: 10px solid white;
+}
+.fondoColumnista img {
+	float: left;
+	border: 3px ridge #fff;
+	max-width: 150%;
+	margin-right: 3%;
+	padding: 2%;
+}
+.fondoColumnista h4,h5 {
+	font-size: 15px;
+	color:#959292;
+}
+/**/
+.todosLosColumnistas {
+	margin: 3% auto;
+}
+.ordenAlfabetico .fondoColumnista {
+	position: static;
+}
+.navColumnistas {
+	background-color: rgb(217, 12, 12);
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.navColumnistas a {
+	text-decoration: none;
+	color: white;
+	margin: 5px 10px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 3px 5px;
+}
+.navTodos {
+	background-color: rgb(151, 10, 0);
+	border-radius: 10px;
+}
+/*footer blog*/
+.footer-blog{
+	background-color: #2E2C2C;
+}
+
+.tx-footer{
+	color: #fff;
+	padding-top:2%;
+}
+
+/*agregue media para ocultar el banner pucp*/
+
+@media (max-width: 768px){
+
+	.oculta, .pie_pagina, .publicidad1, .rojo{
+		visibility:hidden;
+	}
+	 .btn-xs{
+		float: left;
+	 }
+}
+
+@media (min-width: 768px){
+	
+	.footer-blog{
+		visibility: hidden;
+	}
+}
