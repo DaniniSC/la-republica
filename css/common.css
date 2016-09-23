@@ -6,6 +6,57 @@
 .foto_baner{
 	padding-left: 100px;
 }
+
+/*Iconos redes sociales*/
+
+.fa-facebook{
+	color: #141471;
+	padding-right: 15px;
+}
+
+.fa-twitter{
+	color: #62DDD0;
+	padding-right: 15px;
+}
+
+.fa-google{
+	color: #C41313;
+	padding-right: 15px;
+}
+
+.fa-envelope{
+	color: #F6AD11;
+	padding-right: 15px;
+}
+
+.fa-rss{
+	color: #F10D22;
+}
+
+.iconos{
+	display: inline-block;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+@media ( max-width: 768px) {
+	.iconos{
+		width: 150px;
+	}
+}
+
+.boletin{
+	width: 163px;
+	display: inline-block;
+}
+
+.form-control{
+	margin: 5px;
+	background-color: #E0DEDE;
+	width: 90% !important;
+	height: 24px; /*Tam*/
+}
+
 /*Suscribete*/
 
 .suscribete{
@@ -28,10 +79,11 @@
 	font-size: 10px;
 }
 .btn{
-	margin-top: 20px;
+	margin-top: 15px; /*Tam*/
 }
+
 .form-group{
-	margin-top: 20px;
+	margin-top: 10px; /*Tam*/
 	padding-right: 80px;
 }
 
