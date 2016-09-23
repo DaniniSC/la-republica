@@ -15,21 +15,27 @@
 .shadow	{
 	background-color: rgba(0,0,0, 0.3);
 	height: 110px;
-	width: 480px;
+	width: 480px; /*ESTO EN RESPONSIVE DEBERIA DECIR WIDTH 100% Y CUBRE LA LINEA COMPLETA*/
 	margin-top: 390px;
 	color: #fff;
+
+	letter-spacing: 1px;
 }
 .parrafo{
 	margin-top: -20px;
+	line-height: 18px;
 }
 .shadow-segundario{
 	background-color: rgba(0,0,0, 0.3);
 	height:90px;
-	width: 428px;
+	width: 428px; /*ESTO EN RESPONSIVE DEBERIA DECIR WIDTH 100% Y CUBRE LA LINEA COMPLETA*/
 	margin-top: 150px;
 	margin-left:-10px;
 	color: #fff;
+	line-height: 18px;
+	letter-spacing: 1px;
 }
 .parrafo{
 	margin-top: -10px;
+	line-height: 18px;
 }
