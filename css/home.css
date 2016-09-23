@@ -1,3 +1,9 @@
+.cuadrogris{
+	width: 5px;
+	height: 5px;
+	background-color: red;
+}
+
 .titulo_columnistas{
 	color: white;
 	background-color: #C50000;
@@ -173,7 +179,7 @@
 	margin: 5px;
 	background-color: #E0DEDE;
 	width: 90% !important;
-	height: 24px; /*Tam*/
+	height: 24px;
 }
 .suscribirse-btn{
 	background-color: #C84949;
