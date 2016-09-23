@@ -1,5 +1,4 @@
 
-
 .titulo_columnistas{
 	color: white;
 	background-color: #C50000;
@@ -40,7 +39,7 @@
 }
 
 
-.parrafo{
+.parrafo_mercado{
 	margin-top: -47px;
 	margin-left:10px;
 	padding-bottom: 10px;
@@ -72,3 +71,45 @@
 	}
 }
 
+.politico{
+	background-image: url(../image/img_grid_principal.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+.politico2{
+	background-image: url(../image/img_grid_secundario.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 240px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+.shadow	{
+	background-color: rgba(0,0,0, 0.3);
+	height: 110px;
+	width: 480px; /*ESTO EN RESPONSIVE DEBERIA DECIR WIDTH 100% Y CUBRE LA LINEA COMPLETA*/
+	margin-top: 390px;
+	color: #fff;
+
+	letter-spacing: 1px;
+}
+.parrafo{
+	margin-top: -20px;
+	line-height: 18px;
+}
+.shadow-segundario{
+	background-color: rgba(0,0,0, 0.3);
+	height:90px;
+	width: 428px; /*ESTO EN RESPONSIVE DEBERIA DECIR WIDTH 100% Y CUBRE LA LINEA COMPLETA*/
+	margin-top: 150px;
+	margin-left:-10px;
+	color: #fff;
+	line-height: 18px;
+	letter-spacing: 1px;
+}
+.parrafo{
+	margin-top: -10px;
+	line-height: 18px;
+}
+>>>>>>> a60d19949a8d69d0bd5b4fd87c6309a4a192faa2

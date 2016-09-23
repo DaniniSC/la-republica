@@ -1,1 +1,21 @@
 /* Inserta tu código de la página contacto acá */
+.formulario {
+	padding: 0 25%;
+}
+.centrarTabla {
+	text-align: center;
+}
+table {
+	margin: 0 auto 5% auto;
+	text-align: left;
+}
+.centrarBoton {
+	text-align: center;
+}
+button {
+	background-color: black;
+	color: white;
+	padding: 1% 5%;
+	margin: 1% auto;
+	text-align: left;
+}
