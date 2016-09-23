@@ -112,4 +112,136 @@
 	margin-top: -10px;
 	line-height: 18px;
 }
->>>>>>> a60d19949a8d69d0bd5b4fd87c6309a4a192faa2
+/*CSS PARTE PATY*/
+/*CSS art. Emma Watson*/
+
+#cont-un{
+	padding-top: 2% !important ;
+}
+.titulo-un{
+	font-family: 'Oswald', sans-serif !important;
+	display: inline-block;
+}
+.titulo-un-1{
+	font-family: 'Oswald', sans-serif !important;
+	display: inline-block;
+}
+.img-un{
+	vertical-align: 0;
+}
+
+.texto-un{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 14px;
+}
+.texto-un-s{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 12px;
+	padding: 10px 0;
+}
+.texto-un-l{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	display: inline;
+}
+.texto-un-thin{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+}
+.foto{
+	width: 100%;
+}
+/*incluir media query para texto*/
+
+.linea{
+	border-bottom: 2px solid #B4B4B4;
+	padding-bottom: 10px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+/*CSS art. Suscríbete*/
+
+#sus-contenedor{
+	background-image: url(../image/trama_square.jpg);
+	background-repeat: repeat;
+	padding: 20px !important;
+	margin-top: 10px;
+}
+#sus-contenido{
+	margin-top:40px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: white;
+}
+.form-control{
+	margin: 5px;
+	background-color: #E0DEDE;
+	width: 90% !important;
+}
+.suscribirse-btn{
+	background-color: #C84949;
+	color:white;
+	padding: 0 10%;
+	border-radius: 4px;
+	border-color: red;
+	margin-bottom: 10px;
+}
+.correo{
+	margin-top: -30px;
+}
+/*Fin Banner suscripción*/
+/*Banner Aweita*/
+.aweita{
+	border: 2px solid #B4B4B4;
+	padding: 12px;
+	margin-top: 10px;
+}
+.juanromero{
+	margin: 6px 0 8px 8px;
+	border: 2px solid #B4B4B4;
+	padding: 0;
+	vertical-align: center;
+}
+.aweita-logo{
+	margin-bottom: 2%;
+}
+.row-final{
+	border-bottom: 3px solid #911080;
+	font-family: 'Oxygen', sans-serif;
+	color: #911080;
+}
+/*FOTOS DESTACADAS*/
+.linea-azul{
+	border-top: 3px solid #446287;
+	margin-top: 30px;
+}
+.fotos-destacadas{
+	background-color: #446287;
+	color:white;
+	font-family: 'Oswald', sans-serif;
+	margin-top: -20px;
+	margin-bottom:20px;
+}
+.greenpeace{
+	border: 3px solid #B4B4B4;
+	padding: 0;
+	margin-bottom: 8px;
+}
+.content-destacadas{
+	margin-top: 12px;
+}
+/*MEDIA QUERYS PARA CSS DE LA SECCION ULTIMAS NOTICIAS*/
+@media (max-width: 768px){
+	.media-texto{
+		font-size: 10px;
+	}
+	.texto-un-l{
+		font-size: 13px;
+	}
+	.texto-un{
+		font-size: 12px;
+		text-align: justify;
+	}
+}
