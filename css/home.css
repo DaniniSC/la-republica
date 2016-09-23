@@ -1,3 +1,112 @@
+<<<<<<< HEAD
+/*Publicidad1*/
+
+.publicidad1{
+	background-color:  #eeeeee;
+}
+.foto_baner{
+	padding-left: 100px;
+}
+/*Suscribete*/
+
+.suscribete{
+	background-color:  #eeeeee;
+}
+.menu_1 nav {
+	margin:5px;
+	padding-left: 50px;
+}
+.menu_1 nav ul li {
+	list-style: none;
+	display: flex;
+	float: left;
+	margin-top: 20px;
+	margin: 10px;
+}
+.menu_1 ul li a {
+	text-decoration: none;
+	color: #666666;
+	font-size: 10px;
+}
+.btn{
+	margin-top: 20px;
+}
+.form-group{
+	margin-top: 20px;
+	padding-right: 80px;
+}
+/*header*/
+
+.header{
+	padding: 50px;
+	margin-left: 35px;
+}
+
+.rojo{
+	background-color: #C50000 ;
+	padding: 5px;
+	margin-left: 100px;
+	margin-right: 60px;
+	border-radius: 3px;
+}
+.rojo a{
+	color: white;
+	font-size: 12px;
+	margin:5px;
+	font-weight: bold;
+	margin-left: 2px;
+}
+.tema{
+	color: white;
+	background-color: black;
+	border-radius: 3px;
+	margin-right: 10px;
+	padding:12px;
+}
+/*Seccion temas del dia*/
+
+.gris {
+	margin-left: 90px;
+	margin-top:10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color:  #eeeeee;
+}
+.gris a{
+	color: #666666;
+	font-size: 13px;
+	margin:5px;
+	margin-left: 2px;
+}
+/* footer*/
+.pie_pagina{
+	background-color: #eeeeee;
+	padding-left: 30px;
+	padding-top: 40px;
+}
+.logo{
+	margin-left: 70px;
+}
+.direccion{
+	margin-left: 70px;
+	margin-top: 20px;
+}
+.enlaces ul li{
+	margin: 0 auto;
+	list-style: none;
+}
+.enlaces ul li a{
+	color: #666666;
+}
+.enlaces ul li a:hover{
+	background-color:#c0c0c0 ;
+}
+.col_1{
+	margin-left: 100px;
+}
+.pie_final{
+	padding: 20px;
+=======
 .politico{
 	background-image: url(../image/img_grid_principal.jpg);
 	background-size: cover;
@@ -32,4 +141,5 @@
 }
 .parrafo{
 	margin-top: -10px;
+>>>>>>> d9ef6e68091cabf14345f7d0d24bf68778287f96
 }
