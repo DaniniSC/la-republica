@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Publicidad1*/
 
 .publicidad1{
@@ -105,4 +106,40 @@
 }
 .pie_final{
 	padding: 20px;
+=======
+.politico{
+	background-image: url(../image/img_grid_principal.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+.politico2{
+	background-image: url(../image/img_grid_secundario.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 240px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+.shadow	{
+	background-color: rgba(0,0,0, 0.3);
+	height: 110px;
+	width: 480px;
+	margin-top: 390px;
+	color: #fff;
+}
+.parrafo{
+	margin-top: -20px;
+}
+.shadow-segundario{
+	background-color: rgba(0,0,0, 0.3);
+	height:90px;
+	width: 428px;
+	margin-top: 150px;
+	margin-left:-10px;
+	color: #fff;
+}
+.parrafo{
+	margin-top: -10px;
+>>>>>>> d9ef6e68091cabf14345f7d0d24bf68778287f96
 }
