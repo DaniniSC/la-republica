@@ -1,4 +1,76 @@
 
+.titulo_columnistas{
+	color: white;
+	background-color: #C50000;
+	margin:-72px auto;
+	height: 57px;
+	width: 200px;
+	padding-top: 8px;
+}
+
+.columnistas_background{
+	background: #eeeeee;
+	padding:11px;
+	padding-top: 59px;
+	margin-top: 20px;
+	text-align: center;
+}
+.margin-img {
+	display: inline-block;
+}
+
+.titulo_mercado{
+	color:#C50000;
+}
+
+.hipervinculo{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+.deportistas{
+	border: 2px solid #eeeeee;	
+	padding-top: 15px;
+	margin-left: 15px;
+	margin-bottom: -2px;
+	margin-top: 25px;
+	width: 44%;
+}
+
+
+.parrafo_mercado{
+	margin-top: -47px;
+	margin-left:10px;
+	padding-bottom: 10px;
+	color:white;
+}
+
+.parrafo_video{
+	margin-top: -68px;
+	margin-left:10px;
+	padding-bottom: 10px;
+	color:white;
+}
+.video{
+	margin-top: -21px;
+	margin-left:10px;
+	padding-bottom: 10px;
+	color:white;
+}
+.banner_cabello{
+	margin-top: 40px;
+	margin-left: -55px;
+	width: 30%;
+}
+
+
+@media ( max-width: 768px) {
+	.banner_cabello{
+		visibility: hidden;
+	}
+}
+
 .politico{
 	background-image: url(../image/img_grid_principal.jpg);
 	background-size: cover;
@@ -35,3 +107,4 @@
 	margin-top: -10px;
 	line-height: 18px;
 }
+>>>>>>> a60d19949a8d69d0bd5b4fd87c6309a4a192faa2
