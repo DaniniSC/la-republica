@@ -40,7 +40,7 @@
 	margin-top: 15px;
 	margin-left: 20px;
 }
-@media ( max-width: 768px) {
+@media (max-width: 768px) {
 	.iconos{
 		width: 150px;
 	}
@@ -238,4 +238,85 @@
 .parrafo{
 	margin-top: -10px;
 >>>>>>> d9ef6e68091cabf14345f7d0d24bf68778287f96
+}
+
+@media (max-width: 768px) {
+	.iconos{
+		width: 150px;
+	}
+
+	.suscribete{
+		margin-top: -55px;
+	}
+
+	.navheader{
+		width: 450px;
+	}
+
+	.navheaderul{
+		padding-left: 0px;
+		width: 450px;
+	}
+
+	.navheaderli{
+		margin-left: -50px !important;
+	}
+
+	.boletin{
+		margin-top: -10px;
+		margin-bottom: 10px;
+	}
+
+	.iconos{
+		margin-top: 5px;
+		margin-left: 15px;
+	}
+
+	.iconos .fa{
+		padding-right: 5px;
+	}
+
+	.elbuscador{
+		width: 200px;
+		position: absolute;
+		margin-left: 300px;
+		margin-top: 40px;
+	}
+
+	.foto_header{
+		margin-left: -80px;
+	}
+
+	.domingo{
+		margin-top: 40px;
+		margin-left: -70px;
+	}
+
+	.boton2{
+		margin-left: 130px;
+	}
+
+	.domingo2{
+		margin-left: -70px;
+	}
+
+	.autor{
+		margin-left: 85px;
+	}
+
+	.gris{
+		margin-top: -150px;
+		margin-left: 10px;
+		width: 400px;
+		height: 30px;
+	}
+
+	.headerparaocultar{
+		visibility: hidden;
+	}
+
+	.img-responsive{
+		visibility: hidden;
+	}
+
 }

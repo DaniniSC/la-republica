@@ -19,3 +19,34 @@ button {
 	margin: 1% auto;
 	text-align: left;
 }
+
+/*agregue media para ocultar el banner pucp*/
+
+@media (max-width: 768px){
+
+	.oculta, .pie_pagina, .publicidad1, .rojo{
+		visibility:hidden;
+	}
+	 .btn-xs{
+		float: left;
+	 }
+
+	 .negrofooter{
+	 	background-color: #333333;
+	 	color: #ffffff;
+	 	padding-top: 2%;
+	 	padding-bottom: 2%;
+	 	margin-top: 20px;
+	 }
+	
+	.suscribete{
+		margin-top: -110px;
+	}
+}
+
+@media (min-width: 768px){
+	
+	.footer-blog{
+		visibility: hidden;
+	}
+}

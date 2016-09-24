@@ -246,3 +246,22 @@
 		text-align: justify;
 	}
 }
+
+/*agregue media para ocultar el banner pucp*/
+
+@media (max-width: 768px){
+
+	.oculta, .pie_pagina, .publicidad1, .rojo{
+		visibility:hidden;
+	}
+	 .btn-xs{
+		float: left;
+	 }
+}
+
+@media (min-width: 768px){
+	
+	.footer-blog{
+		visibility: hidden;
+	}
+}
