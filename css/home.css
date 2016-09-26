@@ -74,6 +74,22 @@
 	.banner_cabello{
 		visibility: hidden;
 	}
+	.guerra{
+		margin-top: -50px;
+	}
+
+	.maestria{
+		margin-top: -90px;
+	}
+
+	.ultimas{
+		margin-top: -250px;
+		margin-left: 40px;
+	}
+
+	.greenpeace{
+		margin-left: 35px;
+	}
 }
 
 .politico{

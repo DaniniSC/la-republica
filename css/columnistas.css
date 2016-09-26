@@ -1,4 +1,10 @@
 /* section columnas */
+.todas{
+	background-color: rgb(217, 12, 12);
+	color: #ffffff;
+	margin-left: 390px;
+}
+
 .bloquesColumnas{
 	border: 2px solid lightgrey;
 	margin: 2% 1%;
@@ -73,6 +79,19 @@
 
 	 .suscribete{
 		margin-top: -110px;
+	}
+
+	.columnas{
+		margin-top: -100px;
+	}
+
+	.titulosgol{
+		margin-top: 55px;
+	}
+
+	.todas{
+		margin-left: 130px;
+		margin-top: 30px;
 	}
 }
 
