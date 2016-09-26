@@ -69,6 +69,15 @@
 	width: 30%;
 }
 
+.footer-blog{ /*css footer negro*/
+	background-color: #2E2C2C;
+}
+
+.tx-footer{
+	color: #fff;
+	padding-top:2%;
+}
+
 
 @media ( max-width: 768px) {
 	.banner_cabello{
