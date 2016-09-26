@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,25 +22,32 @@
 	<section class="suscribete">
 		<div class="container-fluid">
 			<div class="row menu_1">
-				<div class="col-md-8 col-xs-16">
+				<div class="col-md-8 col-xs-16 navheader">
 					<nav>
-						<ul>
-							<li><a href="#">LIBERO.PE</a></li>
+						<ul class="navheaderul">
+							<li class="navheaderli"><a href="#">LIBERO.PE</a></li>
 							<li><a href="#">ELPOPULAR.PE</a></li>
 							<li><a href="#">FUNDACIÓN GUSTAVO MOHME LLONA</a></li>
 						</ul>
 					</nav>
 				</div>
 				<div class="col-md-4 col-xs-8">
-					 <p><a class="btn btn-danger btn-xs" href="#" role="button">SUSCRÍBETE AL BOLETÍN</a></p>
+					 <div class="boletin">
+						<p>
+							<a class="btn btn-danger btn-xs" href="#" role="button">SUSCRÍBETE AL BOLETÍN</a>
+						</p>
+					</div>
 				     <div class="iconos">
-				     	<!--faltan los iconos-->
-				     	
+				     	<div class="fa fa-facebook"></div>
+				     	<div class="fa fa-twitter"></div>
+				     	<div class="fa fa-google"></div>
+				     	<div class="fa fa-envelope"></div>
+				     	<div class="fa fa-rss"></div>
 				     </div>
 				</div>     
 				<div class="col-md-4">     
 	    			<form class="navbar-form navbar-left">
-	       		 		<div class="form-group">
+	       		 		<div class="form-group elbuscador">
 	          				<input type="text" class="form-control" placeholder="Buscar">
 	        			</div>
 	     			 </form>	
@@ -47,14 +55,25 @@
 	        </div>
     	</div>
 	</section>
-	<header>
+		<header>
 		<div class="row header">
 			<div class="container-fluid">
 			<div class="col-md-5">
 				<img src="image/logo-la-republica.jpg" class="foto_header" class="img-responsive">
 			</div>
-			<!-- falta recuadro de domingo y recuadro de editorial-->
-		</div>
+			<div class="col-md-4 domingo">
+			  <button type="button" class="btn btn-danger boton2">Domingo</button>
+			  <h6 class="text-center"><strong>HABLA LA LIDERESA DE LA NACIONALIDAD</strong></h6>
+			</div>	
+			
+			<div class="col-md-4 domingo2">
+			<div class="texto_blanco">
+			  <p><strong>La Corrupcion, los orignenes</strong>
+			  <p><small><i>Por: Gustavo Mohme Llona</i></small></p>
+			  <img class="autor" src="image/img_author.jpg" alt=""></p>
+			  </div>
+			  </div>
+			</div>		
 		</div>
 	</header>
 	<header>
@@ -67,7 +86,7 @@
                         <a href="#">SOCIEDAD</a>
                         <a href="#">ELECC. REGIONALES</a>
                         <a href="#">DEPORTES</a>
-                        <a href="#">CHAMPIONS L.</a>
+                        <a class="seccionazul" href="#">CHAMPIONS L.</a>
                         <a href="#">ESPECTÁCULOS</a>
                         <a href="#">ED.IMPRESA</a>
                         <a href="#">REGIONALES</a>
@@ -86,13 +105,13 @@
                     	<strong class="tema">TEMA DEL DÍA</strong>
                         <a href="#">Globos de Oro •</a>
                         <a href="#">YouTube  •</a>
-                        <a href="#">PNP  •</a>
-                        <a href="#">Charlie Hebdo  •</a>
-                        <a href="#">Globos de Oro 2  •</a>
-                        <a href="#">YouTube 2  •</a>
-                        <a href="#">YouTube 2  •</a>
-                        <a href="#">PNP2  •</a>
-                        <a href="#">Charlie Hebdo2  •</a>
+                        <a class="headerparaocultar" href="#">PNP  •</a>
+                        <a class="headerparaocultar" href="#">Charlie Hebdo  •</a>
+                        <a class="headerparaocultar" href="#">Globos de Oro 2  •</a>
+                        <a class="headerparaocultar" href="#">YouTube 2  •</a>
+                        <a class="headerparaocultar" href="#">YouTube 2  •</a>
+                        <a class="headerparaocultar" href="#">PNP2  •</a>
+                        <a class="headerparaocultar" href="#">Charlie Hebdo2  •</a>
                     </div>
                 </div>
             </nav>
@@ -107,8 +126,8 @@
 			</div>
 			<div class="row">
 				<div class="col-md-5 col-sm-16 bloquesColumnas">
-					<p class="text-center">Lunes, 14 de julio del 2015</p>
-					<h3 class="text-center">El gol de la muerte</h3>
+					<p class="text-center">Lunes 14 de julio del 2015</p>
+					<h3 class="text-center titulosgol">El gol de la muerte</h3>
 					<div class="fondoColumnista">
 						<img src="image/img_author_columnista.jpg" class="img-responsive">
 						<h4>Augusto Álvarez Rodrich</h4>
@@ -117,7 +136,7 @@
 				</div>
 				<div class="col-md-5 col-sm-16 bloquesColumnas">
 					<p class="text-center">Lunes, 14 de julio del 2015</p>
-					<h3 class="text-center">Dios ha muerto... tengo las manos cubiertas de sangre</h3>
+					<h3 class="text-center titulosgol">Dios ha muerto... tengo las manos cubiertas de sangre</h3>
 					<div class="fondoColumnista">
 						<img src="image/img_author_columnista.jpg" class="img-responsive">
 						<h4>Mirko Lauer</h4>
@@ -126,7 +145,7 @@
 				</div>
 				<div class="col-md-5 col-sm-16 bloquesColumnas">
 					<p class="text-center">Lunes, 14 de julio del 2015</p>
-					<h3 class="text-center">¿Cuál es tu queso favorito?</h3>
+					<h3 class="text-center titulosgol">¿Cuál es tu queso favorito?</h3>
 					<div class="fondoColumnista">
 						<img src="image/img_author_columnista.jpg" class="img-responsive">
 						<h4>Mirko Lauer</h4>
@@ -137,7 +156,7 @@
 			<div class="row">
 				<div class="col-md-5 col-sm-16 bloquesColumnas">
 					<p class="text-center">Lunes, 14 de julio del 2015</p>
-					<h3 class="text-center">El gol de la muerte</h3>
+					<h3 class="text-center titulosgol">El gol de la muerte</h3>
 					<div class="fondoColumnista">
 						<img src="image/img_author_columnista.jpg" class="img-responsive">
 						<h4>Augusto Álvarez Rodrich</h4>
@@ -146,7 +165,7 @@
 				</div>
 				<div class="col-md-5 col-sm-16 bloquesColumnas">
 					<p class="text-center">Lunes, 14 de julio del 2015</p>
-					<h3 class="text-center">Dios ha muerto... tengo las manos cubiertas de sangre</h3>
+					<h3 class="text-center titulosgol">Dios ha muerto... tengo las manos cubiertas de sangre</h3>
 					<div class="fondoColumnista">
 						<img src="image/img_author_columnista.jpg" class="img-responsive">
 						<h4>Mirko Lauer</h4>
@@ -155,7 +174,7 @@
 				</div>
 				<div class="col-md-5 col-sm-16 bloquesColumnas">
 					<p class="text-center">Lunes, 14 de julio del 2015</p>
-					<h3 class="text-center">¿Cuál es tu queso favorito?</h3>
+					<h3 class="text-center titulosgol">¿Cuál es tu queso favorito?</h3>
 					<div class="fondoColumnista">
 						<img src="image/img_author_columnista.jpg" class="img-responsive">
 						<h4>Mirko Lauer</h4>
@@ -164,7 +183,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<button class="btn">TODAS LAS COLUMNAS</button>
+				<button class="btn todas">TODAS LAS COLUMNAS</button>
 			</div>
 		</div>
 	</section>
@@ -177,47 +196,63 @@
 			</div>
 			<div class="row">
 				<div class="col-md-16">
-					<nav class="navColumnistas">
-						<ul class="nav nav-pills">
-							<li role="presentation" class="active"><a href="#">TODOS</a></li>
-							<li role="presentation"><a href="#">ABC</a></li>
-							<li role="presentation"><a href="#">DEF</a></li>
-							<li role="presentation"><a href="#">GHI</a></li>
-							<li role="presentation"><a href="#">JKL</a></li>
-							<li role="presentation"><a href="#">MNO</a></li>
-							<li role="presentation"><a href="#">PQRS</a></li>
-							<li role="presentation"><a href="#">TUV</a></li>
-							<li role="presentation"><a href="#">WXYZ</a></li>
-						</ul>
+					<nav class="nav nav-pills navColumnistas">
+						<a href="#" class="navTodos">TODOS</a>
+						<a href="#">ABC</a>
+						<a href="#">DEF</a>
+						<a href="#">GHI</a>
+						<a href="#">JKL</a>
+						<a href="#">MNO</a>
+						<a href="#">PQRS</a>
+						<a href="#">TUV</a>
+						<a href="#">WXYZ</a>
 					</nav>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-16">
-					<div class="col-md-4 fondoColumnista">
-						<img src="image/img_author_columnista.jpg" class="img-responsive">
-						<h4>Augusto Álvarez Rodrich</h4>
-						<h5>Claro y directo</h5>
+					<div class="ordenAlfabetico col-md-4">
+						<div class="col-md-4 fondoColumnista">
+							<img src="image/img_author_columnista.jpg" class="img-responsive">
+							<h4>Augusto Álvarez Rodrich</h4>
+							<h5>Claro y directo</h5>
+						</div>
 					</div>
-					<div class="col-md-4 fondoColumnista">
-						<img src="image/img_author_columnista.jpg" class="img-responsive">
-						<h4>Augusto Álvarez Rodrich</h4>
-						<h5>Claro y directo</h5>
+					<div class="ordenAlfabetico col-md-4">
+						<div class="col-md-4 fondoColumnista">
+							<img src="image/img_author_columnista.jpg" class="img-responsive">
+							<h4>Augusto Álvarez Rodrich</h4>
+							<h5>Claro y directo</h5>
+						</div>
 					</div>
-					<div class="col-md-4 fondoColumnista">
-						<img src="image/img_author_columnista.jpg" class="img-responsive">
-						<h4>Augusto Álvarez Rodrich</h4>
-						<h5>Claro y directo</h5>
+					<div class="ordenAlfabetico col-md-4">
+						<div class="col-md-4 fondoColumnista">
+							<img src="image/img_author_columnista.jpg" class="img-responsive">
+							<h4>Augusto Álvarez Rodrich</h4>
+							<h5>Claro y directo</h5>
+						</div>
 					</div>
-					<div class="col-md-4 fondoColumnista">
-						<img src="image/img_author_columnista.jpg" class="img-responsive">
-						<h4>Augusto Álvarez Rodrich</h4>
-						<h5>Claro y directo</h5>
+					<div class="ordenAlfabetico col-md-4">
+						<div class="col-md-4 fondoColumnista">
+							<img src="image/img_author_columnista.jpg" class="img-responsive">
+							<h4>Augusto Álvarez Rodrich</h4>
+							<h5>Claro y directo</h5>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	<footer class="footer-blog">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-16">
+					<h4 class=" text-center tx-footer">Grupo La República Digital</h4>
+					<p class="text-center tx-footer">Todos los derechos reservados - 2015</p>
+				</div>
+			</div>
+		</div>
+	</footer>
 	<footer class="pie_pagina">
 		<div class="row">
 			<div class="container-fluid">
@@ -340,4 +375,5 @@
 			</div>
 		</div>		
 	</footer>
+</body>
 </html>

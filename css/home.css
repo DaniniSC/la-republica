@@ -1,3 +1,8 @@
+.cuadrogris{
+	width: 5px;
+	height: 5px;
+	background-color: red;
+}
 
 .titulo_columnistas{
 	color: white;
@@ -68,6 +73,22 @@
 @media ( max-width: 768px) {
 	.banner_cabello{
 		visibility: hidden;
+	}
+	.guerra{
+		margin-top: -50px;
+	}
+
+	.maestria{
+		margin-top: -90px;
+	}
+
+	.ultimas{
+		margin-top: -250px;
+		margin-left: 40px;
+	}
+
+	.greenpeace{
+		margin-left: 35px;
 	}
 }
 
@@ -174,6 +195,7 @@
 	margin: 5px;
 	background-color: #E0DEDE;
 	width: 90% !important;
+	height: 24px;
 }
 .suscribirse-btn{
 	background-color: #C84949;
@@ -238,5 +260,24 @@
 	.texto-un{
 		font-size: 12px;
 		text-align: justify;
+	}
+}
+
+/*agregue media para ocultar el banner pucp*/
+
+@media (max-width: 768px){
+
+	.oculta, .pie_pagina, .publicidad1, .rojo{
+		visibility:hidden;
+	}
+	 .btn-xs{
+		float: left;
+	 }
+}
+
+@media (min-width: 768px){
+	
+	.footer-blog{
+		visibility: hidden;
 	}
 }

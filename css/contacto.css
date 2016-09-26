@@ -1,6 +1,7 @@
-/* Inserta tu código de la página contacto acá */
+/* formulario de contacto */
 .formulario {
 	padding: 0 25%;
+	background-color: white !important;
 }
 .centrarTabla {
 	text-align: center;
@@ -18,4 +19,74 @@ button {
 	padding: 1% 5%;
 	margin: 1% auto;
 	text-align: left;
+}
+/*footer blog*/
+.fondo-blog{
+	background-color: #E9E6E6;
+	padding:10%;
+	width: 100%;
+
+}
+
+.enlace-blog{
+	font-size: 15px;
+	color:#959292;
+}
+
+.footer-blog{
+	background-color: #2E2C2C;
+}
+
+.tx-footer{
+	color: #fff;
+	padding-top:2%;
+}
+
+/*agregue media para ocultar el banner pucp*/
+
+@media (max-width: 768px){
+
+	.formulario {
+		padding: 0 10%;
+	}
+	.formulario .container {
+		padding: 0;
+	}
+	.campo-formulario { /*media query para formulario*/
+		margin: 0;
+		width: 100%;
+		padding-right: 0;
+	}
+	.centrarTabla table {
+		width: 100%;
+	}
+	textarea {
+		margin: auto 10px;
+		width: 100%;
+	}
+	.oculta, .pie_pagina, .publicidad1, .rojo{
+		visibility:hidden;
+	}
+	 .btn-xs{
+		float: left;
+	 }
+
+	 .negrofooter{
+	 	background-color: #333333;
+	 	color: #ffffff;
+	 	padding-top: 2%;
+	 	padding-bottom: 2%;
+	 	margin-top: 20px;
+	 }
+	
+	.suscribete{
+		margin-top: -110px;
+	}
+}
+
+@media (min-width: 768px){
+	
+	.footer-blog{
+		visibility: hidden;
+	}
 }
