@@ -46,6 +46,24 @@ button {
 
 @media (max-width: 768px){
 
+	.formulario {
+		padding: 0 10%;
+	}
+	.formulario .container {
+		padding: 0;
+	}
+	.campo-formulario { /*media query para formulario*/
+		margin: 0;
+		width: 100%;
+		padding-right: 0;
+	}
+	.centrarTabla table {
+		width: 100%;
+	}
+	textarea {
+		margin: auto 10px;
+		width: 100%;
+	}
 	.oculta, .pie_pagina, .publicidad1, .rojo{
 		visibility:hidden;
 	}
