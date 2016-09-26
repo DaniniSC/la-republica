@@ -1,3 +1,8 @@
+.gris{
+	margin-left: 100px;
+	padding: 9px;
+}
+
 .titulo-blog{
 	color:#000;
 	margin-left:3%; 
@@ -59,6 +64,14 @@
 	 .btn-xs{
 		float: left;
 	 }
+
+	 .suscribete{
+		margin-top: -110px;
+	}
+
+	.gris{
+		margin-left: 20px;
+	}
 }
 
 @media (min-width: 768px){

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,25 +22,32 @@
 	<section class="suscribete">
 		<div class="container-fluid">
 			<div class="row menu_1">
-				<div class="col-md-8 col-xs-16">
+				<div class="col-md-8 col-xs-16 navheader">
 					<nav>
-						<ul>
-							<li><a href="#">LIBERO.PE</a></li>
+						<ul class="navheaderul">
+							<li class="navheaderli"><a href="#">LIBERO.PE</a></li>
 							<li><a href="#">ELPOPULAR.PE</a></li>
 							<li><a href="#">FUNDACIÓN GUSTAVO MOHME LLONA</a></li>
 						</ul>
 					</nav>
 				</div>
 				<div class="col-md-4 col-xs-8">
-					 <p><a class="btn btn-danger btn-xs" href="#" role="button">SUSCRÍBETE AL BOLETÍN</a></p>
+					 <div class="boletin">
+						<p>
+							<a class="btn btn-danger btn-xs" href="#" role="button">SUSCRÍBETE AL BOLETÍN</a>
+						</p>
+					</div>
 				     <div class="iconos">
-				     	<!--faltan los iconos-->
-				     	
+				     	<div class="fa fa-facebook"></div>
+				     	<div class="fa fa-twitter"></div>
+				     	<div class="fa fa-google"></div>
+				     	<div class="fa fa-envelope"></div>
+				     	<div class="fa fa-rss"></div>
 				     </div>
 				</div>     
 				<div class="col-md-4">     
 	    			<form class="navbar-form navbar-left">
-	       		 		<div class="form-group">
+	       		 		<div class="form-group elbuscador">
 	          				<input type="text" class="form-control" placeholder="Buscar">
 	        			</div>
 	     			 </form>	
@@ -47,14 +55,25 @@
 	        </div>
     	</div>
 	</section>
-	<header>
+		<header>
 		<div class="row header">
 			<div class="container-fluid">
 			<div class="col-md-5">
 				<img src="image/logo-la-republica.jpg" class="foto_header" class="img-responsive">
 			</div>
-			<!-- falta recuadro de domingo y recuadro de editorial-->
-		</div>
+			<div class="col-md-4 domingo">
+			  <button type="button" class="btn btn-danger boton2">Domingo</button>
+			  <h6 class="text-center"><strong>HABLA LA LIDERESA DE LA NACIONALIDAD</strong></h6>
+			</div>	
+			
+			<div class="col-md-4 domingo2">
+			<div class="texto_blanco">
+			  <p><strong>La Corrupcion, los orignenes</strong>
+			  <p><small><i>Por: Gustavo Mohme Llona</i></small></p>
+			  <img class="autor" src="image/img_author.jpg" alt=""></p>
+			  </div>
+			  </div>
+			</div>		
 		</div>
 	</header>
 	<header>
@@ -67,7 +86,7 @@
                         <a href="#">SOCIEDAD</a>
                         <a href="#">ELECC. REGIONALES</a>
                         <a href="#">DEPORTES</a>
-                        <a href="#">CHAMPIONS L.</a>
+                        <a class="seccionazul" href="#">CHAMPIONS L.</a>
                         <a href="#">ESPECTÁCULOS</a>
                         <a href="#">ED.IMPRESA</a>
                         <a href="#">REGIONALES</a>
@@ -86,13 +105,13 @@
                     	<strong class="tema">TEMA DEL DÍA</strong>
                         <a href="#">Globos de Oro •</a>
                         <a href="#">YouTube  •</a>
-                        <a href="#">PNP  •</a>
-                        <a href="#">Charlie Hebdo  •</a>
-                        <a href="#">Globos de Oro 2  •</a>
-                        <a href="#">YouTube 2  •</a>
-                        <a href="#">YouTube 2  •</a>
-                        <a href="#">PNP2  •</a>
-                        <a href="#">Charlie Hebdo2  •</a>
+                        <a class="headerparaocultar" href="#">PNP  •</a>
+                        <a class="headerparaocultar" href="#">Charlie Hebdo  •</a>
+                        <a class="headerparaocultar" href="#">Globos de Oro 2  •</a>
+                        <a class="headerparaocultar" href="#">YouTube 2  •</a>
+                        <a class="headerparaocultar" href="#">YouTube 2  •</a>
+                        <a class="headerparaocultar" href="#">PNP2  •</a>
+                        <a class="headerparaocultar" href="#">Charlie Hebdo2  •</a>
                     </div>
                 </div>
             </nav>
