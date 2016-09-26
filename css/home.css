@@ -90,6 +90,10 @@
 	.greenpeace{
 		margin-left: 35px;
 	}
+
+	.shadow, .shadow-segundario{
+		width: 100% !important;
+	}
 }
 
 .politico{
